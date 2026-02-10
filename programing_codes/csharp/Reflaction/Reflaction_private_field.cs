@@ -1,4 +1,4 @@
-public class SomeA
+ï»¿public class SomeA
 {
     private List<string> _items;
 }
@@ -13,7 +13,7 @@ public class Tester
                     System.Reflection.BindingFlags.NonPublic | 
                     System.Reflection.BindingFlags.Instance);
 
-        // object Å¸ÀÔÀ» List<string>À¸·Î Ä³½ºÆÃ
+        // object íƒ€ì…ì„ List<string>ìœ¼ë¡œ ìºìŠ¤íŒ…
         var list = field.GetValue(someInst) as List<string>;
 
         list.Add("Some Item");
